@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>採用業務効率化webアプリ | Works | Miyu Ohno Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__inner">
+      <p class="header__logo"><a href="../index.html">miyu</a></p>
+      <button class="nav__toggle" aria-label="メニューを開く" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="header__nav" aria-label="グローバルナビゲーション">
+        <ul class="nav__list">
+          <li><a href="../career/index.html">職務経歴</a></li>
+          <li><a href="../works/index.html">制作物ギャラリー</a></li>
+          <li><a href="../about/index.html">私について</a></li>
+          <li><a href="../index.html#contact">問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ページタイトル -->
+    <div class="page-heading">
+      <div class="page-heading__inner">
+        <div class="section-heading">
+          <span class="section-heading__en">works</span>
+          <h1 class="section-heading__jp">採用業務効率化webアプリ（架空）</h1>
+        </div>
+        <div class="work-detail__meta">
+          <ul class="tag-list">
+            <li class="tag-list__item">#デザイン</li>
+            <li class="tag-list__item">#XD</li>
+          </ul>
+          <p class="work-detail__period">制作期間：アプリデザイン 10日 / LPデザイン 7日</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+         Part 1：アプリUI
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+    <section class="section work-page-section" aria-label="アプリUIデザイン">
+      <div class="inner">
+
+        <h2 class="work-section-title">採用業務効率化webアプリ「FormMade」</h2>
+
+        <!-- デバイスモックアップ -->
+        <div class="work-device">
+          <div class="work-device__pc">
+            <img class="device-frame" src="img/mac.png" alt="">
+            <img class="device-screen" src="../img/works12.png" alt="採用業務効率化webアプリ PCデザイン">
+          </div>
+          <div class="work-device__sp">
+            <img class="device-frame" src="img/phone.png" alt="">
+            <img class="device-screen" src="img/works12_sp.png" alt="採用業務効率化webアプリ SPデザイン">
+          </div>
+        </div>
+
+        <p class="work-overview">
+          採用業務効率化webアプリ「FormMade」の要件定義からUI制作、リリースにかけてのLP制作をしました。
+        </p>
+
+        <!-- 要件定義・設計 -->
+        <ul class="plan-list">
+
+          <li class="plan-item">
+            <h3 class="plan-item__title">要件定義</h3>
+            <div class="plan-boxes">
+
+              <div>
+                <h4 class="plan-box__title">ターゲット</h4>
+                <p class="plan-box__content">各企業の採用担当者</p>
+              </div>
+
+              <div>
+                <h4 class="plan-box__title">概要</h4>
+                <p class="plan-box__content">求人フォームの作成・応募者管理をアプリで簡素化することで業務の生産性を上げる</p>
+                <ul class="feature-list plan-box__content">
+                  <li>フォーム作成</li>
+                  <li>応募者データ管理</li>
+                  <li>選考フロー管理</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 class="plan-box__title">競合状況</h4>
+                <p class="plan-box__content">「former」「forrm」DX化推進と採用改革による競合は増えている</p>
+              </div>
+
+              <div>
+                <h4 class="plan-box__title">業務要件</h4>
+                <p class="plan-box__content">システム仕様：フォームで記入された内容を一覧に反映、選考の日程をカレンダーに反映</p>
+              </div>
+
+              <div>
+                <h4 class="plan-box__title">業務フロー</h4>
+                <p class="plan-box__content">（ディレクター・UIデザイナー・エンジニア）</p>
+                <ul class="feature-list plan-box__content">
+                  <li>内部設計と外部設計</li>
+                  <li>UIデザイン</li>
+                  <li>システム</li>
+                  <li>セキュリティとプライバシー</li>
+                  <li>テスト</li>
+                  <li>公開</li>
+                  <li>保守運用・マーケターと共に改善</li>
+                </ul>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="plan-item">
+            <h3 class="plan-item__title">設計</h3>
+            <div class="plan-boxes">
+
+              <div>
+                <h4 class="plan-box__title">機能</h4>
+                <ul class="feature-list plan-box__content">
+                  <li>フォームを作成し自分でカスタマイズできる（左側に項目一覧 → クリック・ドラッグで直感的に項目の追加・削除・並び替え）</li>
+                  <li>フォーム・確認画面・完了画面</li>
+                  <li>カレンダーで管理・通知</li>
+                  <li>進捗ごとに振り返りができる一覧表示・日付順/評価順で並び替え（名前・評価・日付・簡単なメモをサムネイルとして表示）</li>
+                  <li>検索機能（キーワード検索）</li>
+                  <li>設定機能</li>
+                  <li>PDF・エクセルで書き出し</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 class="plan-box__title">非機能</h4>
+                <ul class="feature-list plan-box__content">
+                  <li>セキュリティとプライバシー</li>
+                  <li>保守運用</li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 class="plan-box__title">ペルソナ</h4>
+                <ul class="feature-list plan-box__content">
+                  <li>36歳・男性・都会在住</li>
+                  <li>生活雑貨販売会社の採用担当</li>
+                  <li>事業拡大に伴い採用を強化したいと指示があった</li>
+                  <li>IT未経験 / 年収450万 / 10:00〜19:00勤務</li>
+                  <li>採用フォームをまとめてくれるサイトで「FormMade」を発見。それまではメールで直接応募者とやり取りをして、エクセルで一覧にして管理していた。採用強化で追いつかなくなる懸念があり、簡単に管理できるようにしたい。</li>
+                </ul>
+              </div>
+
+            </div>
+          </li>
+
+        </ul><!-- /.plan-list -->
+
+        <!-- フォームワイヤーフレーム -->
+        <div class="work-images">
+          <div class="work-images__row">
+            <div class="work-img">
+              <img src="img/works12_form.png" alt="フォーム画面ワイヤーフレーム">
+            </div>
+          </div>
+        </div>
+
+        <!-- アプリワイヤー + スクリーンショット（応募者一覧・カレンダー・フォームカスタマイズ）-->
+        <div class="work-images">
+          <div class="work-images__row">
+            <div class="work-img">
+              <img src="img/works12_app_wire.png" alt="アプリワイヤーフレーム">
+            </div>
+            <div class="work-images__col">
+              <div class="work-img">
+                <img src="img/works12_app01.png" alt="応募者一覧画面">
+              </div>
+              <div class="work-img">
+                <img src="img/works12_app02.png" alt="カレンダー画面">
+              </div>
+              <div class="work-img">
+                <img src="img/works12_app03.png" alt="フォームカスタマイズ画面">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+         Part 2：LPサイト
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+    <section class="section work-page-section" aria-label="LPサイトデザイン">
+      <div class="inner">
+
+        <h2 class="work-section-title">採用業務効率化webアプリ、LPサイト（架空）</h2>
+
+        <!-- LPワイヤーフレーム + 実デザイン -->
+        <div class="work-images">
+          <div class="work-images__row">
+            <div class="work-img">
+              <img src="img/works12_wireframe.png" alt="LPワイヤーフレーム">
+            </div>
+            <div class="work-img">
+              <img src="img/works12.png" alt="LP完成デザイン">
+            </div>
+          </div>
+        </div>
+
+        <!-- 制作ポイント -->
+        <div class="works-desc">
+          <p class="works-desc__overview">
+            <strong>目的：</strong>アプリを導入してもらうためにサイトで魅力を伝え、資料請求・お問い合わせへ誘導<br>
+            <strong>ターゲット：</strong>採用業務を強化・効率化したい採用担当者・企業の30〜40代
+          </p>
+          <ul class="works-desc__list">
+            <li>「信頼感」を加えながら「丸みがある」デザイン</li>
+            <li>カラーはブルーブラックをベースに使用</li>
+            <li>実際の使用画面を掲載することでイメージをしやすく</li>
+            <li>簡潔なアプリの概要とどんな問題を解決できるかを具体的な機能で示し、実際に導入している企業で信頼感を得る</li>
+            <li>資料請求・お問い合わせへの誘導が目的のため、近づきやすいイメージを崩しすぎないようタンクページの上部と下部のみに配置</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SPデザイン解説（ティール背景） -->
+    <div class="sp-callout" aria-label="SPデザインポイント">
+      <div class="sp-callout__inner">
+
+        <div class="sp-callout__notes">
+          <div class="sp-callout__note">
+            <span class="sp-callout__label">point1</span>
+            <p>ひとつひとつ丸みのあるイラストを用いることで親近感を感じる</p>
+          </div>
+          <div class="sp-callout__note">
+            <span class="sp-callout__label">point2</span>
+            <p>ブルーブラックカラーを使用しているが、飛びすぎないよう程度に</p>
+          </div>
+          <div class="sp-callout__note">
+            <span class="sp-callout__label">point3</span>
+            <p>そっとのシャドウで立体感とサイト全体に統一感</p>
+          </div>
+        </div>
+
+        <!-- phone_scroll.png をシェルの背景に、内部でスクロール -->
+        <div class="sp-callout__phone">
+          <div class="sp-callout__phone-shell" style="background-image: url('img/phone_scroll.png');">
+            <div class="sp-callout__phone-scroll">
+              <img src="img/works12_sp_scroll.png" alt="SPサイトスクロールデザイン">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- 一覧へ戻る -->
+    <div class="work-back">
+      <a class="btn btn--accent" href="index.html">制作事例一覧</a>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copy">miyu©︎copyright all reserved.</p>
+  </footer>
+
+  <script src="../js/main.js"></script>
+
+</body>
+</html>

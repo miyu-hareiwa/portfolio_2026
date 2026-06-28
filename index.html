@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miyu Ohno | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__inner">
+      <p class="header__logo">miyu</p>
+      <button class="nav__toggle" aria-label="メニューを開く" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="header__nav" aria-label="グローバルナビゲーション">
+        <ul class="nav__list">
+          <li><a href="career/index.html">職務経歴</a></li>
+          <li><a href="works/index.html">制作物ギャラリー</a></li>
+          <li><a href="about/index.html">私について</a></li>
+          <li><a href="#contact">問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- MV -->
+    <section class="mv" aria-label="メインビジュアル">
+      <div class="mv__inner">
+        <h1 class="mv__copy">ユーザー目線で整理し、<br>実装まで丁寧に作ります。</h1>
+        <div class="mv__image">
+          <img src="img/mv.png" alt="デスクで作業するイラスト">
+        </div>
+      </div>
+    </section>
+
+    <!-- これまでの業務経験 -->
+    <section class="section work" aria-labelledby="work-heading">
+      <div class="inner">
+        <div class="section-heading section-heading--center">
+          <span class="section-heading__en">what can I do</span>
+          <h2 class="section-heading__jp" id="work-heading">これまでの業務経験</h2>
+        </div>
+
+        <div class="work__cards">
+
+          <article class="work-card">
+            <div class="work-card__skill">
+              <h3 class="work-card__category">Design</h3>
+              <ul class="work-card__list">
+                <li>Figma / XD / Photoshop</li>
+                <li>デザイン改善</li>
+                <li>バナー作成</li>
+              </ul>
+            </div>
+            <div class="work-card__detail">
+              <h4 class="work-card__subtitle">業務事例</h4>
+              <dl class="work-card__dl">
+                <div>
+                  <dt>担当</dt>
+                  <dd>デザイン改善、運用</dd>
+                </div>
+                <div>
+                  <dt>課題</dt>
+                  <dd>別部署で扱っている商材を売るECサイトのデザイン改修</dd>
+                </div>
+                <div>
+                  <dt>改善</dt>
+                  <dd>makeshopを使用したECサイトで購入してもらうための動線改善とデザインの改善をした。改めてゴールとターゲットを洗い出し、それを元に流入経路ごとの購入ボタンまでの導線改善を行なった。併せてUIについても文字サイズや余白などを調整。情報設計から組み直しサイト全体の改修を行なった。</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="work-card__skill">
+              <h3 class="work-card__category">Cording</h3>
+              <ul class="work-card__list">
+                <li>HTML / CSS / JavaScript</li>
+                <li>WordPress</li>
+              </ul>
+            </div>
+            <div class="work-card__detail">
+              <h4 class="work-card__subtitle">業務事例</h4>
+              <dl class="work-card__dl">
+                <div>
+                  <dt>担当</dt>
+                  <dd>新規・リニューアルサイトのコーディング</dd>
+                </div>
+                <div>
+                  <dt>課題</dt>
+                  <dd>デザインの意図を正確にコードへ落とし込む</dd>
+                </div>
+                <div>
+                  <dt>改善</dt>
+                  <dd>デザインの意図を汲みながら出来上がりにギャップが出ないよう意識しながらコーディング。WordPressでのカスタムテーマ制作も担当し、保守性・更新しやすさを意識した実装を行なった。</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="work-card__skill">
+              <h3 class="work-card__category">Other</h3>
+              <ul class="work-card__list">
+                <li>GA4を用いたアクセス解析</li>
+                <li>SEO対策</li>
+                <li>業務改善</li>
+              </ul>
+            </div>
+            <div class="work-card__detail">
+              <h4 class="work-card__subtitle">業務事例</h4>
+              <dl class="work-card__dl">
+                <div>
+                  <dt>担当</dt>
+                  <dd>アクセス解析・SEO・業務改善</dd>
+                </div>
+                <div>
+                  <dt>課題</dt>
+                  <dd>サイトへの流入増加と業務効率化</dd>
+                </div>
+                <div>
+                  <dt>改善</dt>
+                  <dd>GA4やGTMを使ってアクセス経路やクリック数を計測しレポートを作成。業者とやり取りしながらHTMLの改善や需要があるワードの調査などSEO対策を実施。効率化のための業務改善も推進した。</dd>
+                </div>
+              </dl>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="work__cta">
+          <a class="btn btn--accent" href="career/index.html">詳しい職務経歴はこちら</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- 制作物ギャラリー -->
+    <section class="section" aria-labelledby="gallery-heading">
+      <div class="inner">
+        <div class="section-heading section-heading--center">
+          <span class="section-heading__en">gallery</span>
+          <h2 class="section-heading__jp" id="gallery-heading">制作物ギャラリー</h2>
+        </div>
+        <ul class="gallery__grid">
+          <li><a class="gallery__item" href="works/works12.html" aria-label="制作物を見る"><img src="img/works12.png"></a></li>
+          <li><a class="gallery__item" href="works/works11.html" aria-label="制作物を見る"><img src="img/works11.png"></a></li>
+          <li><a class="gallery__item" href="works/works07.html" aria-label="制作物を見る"><img src="img/works07.png"></a></li>
+          <li><a class="gallery__item" href="works/works06.html" aria-label="制作物を見る"><img src="img/works06.png"></a></li>
+          <li><a class="gallery__item" href="works/works05.html" aria-label="制作物を見る"><img src="img/works05.png"></a></li>
+          <li><a class="gallery__item" href="works/works04.html" aria-label="制作物を見る"><img src="img/works04.png"></a></li>
+          <li><a class="gallery__item" href="works/works13.html" aria-label="制作物を見る"><img src="img/works13.png"></a></li>
+          <li><a class="gallery__item" href="works/index.html" aria-label="制作物を見る"></a></li>
+          <li><a class="gallery__item" href="works/index.html" aria-label="制作物を見る"></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 私について -->
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="inner">
+        <div class="about__card">
+          <div class="about__photo"><img src="img/me.png"></div>
+          <div class="about__body">
+            <div class="section-heading">
+              <span class="section-heading__en">about</span>
+              <h2 class="section-heading__jp" id="about-heading">私について</h2>
+            </div>
+            <p class="about__text">
+              大野みゆ<br>
+              1997/02/03 生まれ<br>
+              大学在学中にスクールでWEBデザインを学ぶ → 医療業界のサイトに携わる<br>
+              趣味は陶芸とゲーム
+            </p>
+            <a class="btn btn--light" href="about/index.html">詳しくみる</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 問い合わせ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="inner">
+        <div class="section-heading section-heading--center">
+          <span class="section-heading__en">contact</span>
+          <h2 class="section-heading__jp" id="contact-heading">問い合わせ</h2>
+        </div>
+        <a class="contact__email" href="mailto:ohno.miyu23@gmail.com">ohno.miyu23@gmail.com</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copy">miyu©︎copyright all reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
